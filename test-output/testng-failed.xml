@@ -7,9 +7,16 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyAddProductToCart"/>
+          <include name="verifySearchProduct"/>
         </methods>
       </class> <!-- tests.ProductTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyContactUsForm"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
