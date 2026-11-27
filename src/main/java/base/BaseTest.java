@@ -17,7 +17,7 @@ public class BaseTest {
         driver = DriverFactory.initDriver();
 
         driver.get(ConfigReader.getProperty("url"));
-        System.out.println("hi");
+
 
     }
 
